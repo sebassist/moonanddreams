@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund+Guides&display=swap');
+
+* {
+    font-family: "Playwrite DE Grund Guides", serif;
+    color: chocolate;
+}
+body{
+background-image: url("./imagenes/MOON.png");
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+
+.mybutton {
+    background-color: white;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 49%;
+    color: darkgoldenrod;
+    padding: 11px;
+    cursor: pointer; 
+    transition: all 0.3s ease; 
+}
+
+.mybutton:hover {
+    background-color: darkgoldenrod; 
+    color: white; 
+    transform: scale(1.1); 
+}
+
+.titulo-temporada {
+    font-size: 3rem; /* Tamaño grande */
+    color: #ff4500; /* Color naranja rojizo */
+    font-weight: bold; /* Texto en negrita */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Sombra de texto */
+    text-transform: uppercase; /* Texto en mayúsculas */
+    letter-spacing: 2px; /* Espaciado entre letras */
